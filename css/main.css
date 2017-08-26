@@ -1,0 +1,64 @@
+/*
+
+Your styles go here!
+
+Hint! You'll probably want to start by styling:
+  * <body>
+  * <article>
+  * <h1>
+  * <img>
+
+I've left some boilerplate below for you.
+
+*/
+
+body {
+    font-size: 16px;
+    line-height: 1.2rem;
+}
+
+
+/* Title section */
+
+.title {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 65.63rem
+}
+
+.title img {
+    max-width: 100%;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+    justify-content: center;
+}
+
+
+/* Image formatting */
+
+.image-container {
+    width: 50rem;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+h1 {}
+
+img {}
+
+
+/* Footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
